@@ -1,0 +1,79 @@
+[24-Jul-2019 18:26:38 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) in /app/public/wp-content/themes/unitheme/index.php on line 2
+[24-Jul-2019 18:26:51 UTC] PHP Warning:  Use of undefined constant John - assumed 'John' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/unitheme/index.php on line 5
+[24-Jul-2019 18:26:51 UTC] PHP Warning:  Use of undefined constant blue - assumed 'blue' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/unitheme/index.php on line 5
+[24-Jul-2019 18:26:51 UTC] PHP Warning:  Use of undefined constant Jane - assumed 'Jane' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/unitheme/index.php on line 6
+[24-Jul-2019 18:26:51 UTC] PHP Warning:  Use of undefined constant green - assumed 'green' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/unitheme/index.php on line 6
+[24-Jul-2019 18:39:43 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /app/public/wp-content/themes/unitheme/index.php on line 6
+[24-Jul-2019 18:39:57 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/unitheme/index.php on line 7
+[24-Jul-2019 19:45:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getheader() in /app/public/wp-content/themes/unitheme/index.php:1
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/unitheme/index.php on line 1
+[24-Jul-2019 19:54:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /app/public/wp-content/themes/unitheme/functions.php on line 2 and at least 2 expected in /app/public/wp-includes/plugin.php:405
+Stack trace:
+#0 /app/public/wp-content/themes/unitheme/functions.php(2): add_action()
+#1 /app/public/wp-settings.php(499): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 405
+[24-Jul-2019 19:56:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /app/public/wp-content/themes/unitheme/functions.php on line 2 and at least 2 expected in /app/public/wp-includes/plugin.php:405
+Stack trace:
+#0 /app/public/wp-content/themes/unitheme/functions.php(2): add_action()
+#1 /app/public/wp-settings.php(499): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 405
+[24-Jul-2019 19:58:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /app/public/wp-content/themes/unitheme/functions.php on line 2 and at least 2 expected in /app/public/wp-includes/plugin.php:405
+Stack trace:
+#0 /app/public/wp-content/themes/unitheme/functions.php(2): add_action()
+#1 /app/public/wp-settings.php(499): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 405
+[24-Jul-2019 20:00:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /app/public/wp-content/themes/unitheme/functions.php on line 2 and at least 2 expected in /app/public/wp-includes/plugin.php:405
+Stack trace:
+#0 /app/public/wp-content/themes/unitheme/functions.php(2): add_action()
+#1 /app/public/wp-settings.php(499): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 405
+[26-Jul-2019 14:59:59 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-includes/post-template.php on line 310
+[26-Jul-2019 15:00:20 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-includes/post-template.php on line 310
+[26-Jul-2019 15:03:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/unitheme/page.php on line 33
+[26-Jul-2019 15:11:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[26-Jul-2019 17:31:35 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/unitheme/page.php on line 22
+[26-Jul-2019 17:55:26 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/unitheme/page.php on line 30
+[26-Jul-2019 19:35:45 UTC] PHP Warning:  Use of undefined constant get_header - assumed 'get_header' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/unitheme/index.php on line 3
+[26-Jul-2019 19:35:55 UTC] PHP Warning:  Use of undefined constant get_header - assumed 'get_header' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/unitheme/index.php on line 3
+[26-Jul-2019 19:43:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_exerpt() in /app/public/wp-content/themes/unitheme/index.php:26
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/unitheme/index.php on line 26
+[29-Jul-2019 14:29:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_authro() in /app/public/wp-content/themes/unitheme/archive.php:11
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/unitheme/archive.php on line 11
+[29-Jul-2019 15:00:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_posts() in /app/public/wp-content/themes/unitheme/front-page.php:48
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/unitheme/front-page.php on line 48
