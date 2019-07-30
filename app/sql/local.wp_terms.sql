@@ -5,4 +5,5 @@ INSERT INTO `wp_terms` VALUES
 (1,"Uncategorized","uncategorized",0),
 (2,"My Main Header Menu","my-main-header-menu",0),
 (3,"My Magical Menu","my-magical-menu",0),
-(4,"Super Amazing Menu","super-amazing-menu",0);
+(4,"Super Amazing Menu","super-amazing-menu",0),
+(5,"Awards","awards",0);

@@ -77,3 +77,100 @@ Stack trace:
 #2 /app/public/index.php(17): require('/app/public/wp-...')
 #3 {main}
   thrown in /app/public/wp-content/themes/unitheme/front-page.php on line 48
+[29-Jul-2019 19:26:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_adction() in /app/public/wp-content/themes/unitheme/functions.php:16
+Stack trace:
+#0 /app/public/wp-settings.php(499): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/unitheme/functions.php on line 16
+[29-Jul-2019 19:26:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_adction() in /app/public/wp-content/themes/unitheme/functions.php:16
+Stack trace:
+#0 /app/public/wp-settings.php(499): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/unitheme/functions.php on line 16
+[29-Jul-2019 19:27:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_adction() in /app/public/wp-content/themes/unitheme/functions.php:22
+Stack trace:
+#0 /app/public/wp-settings.php(499): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/unitheme/functions.php on line 22
+[29-Jul-2019 19:27:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_adction() in /app/public/wp-content/themes/unitheme/functions.php:22
+Stack trace:
+#0 /app/public/wp-settings.php(499): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/unitheme/functions.php on line 22
+[29-Jul-2019 19:27:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_adction() in /app/public/wp-content/themes/unitheme/functions.php:22
+Stack trace:
+#0 /app/public/wp-settings.php(499): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/unitheme/functions.php on line 22
+[29-Jul-2019 20:03:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/unitheme/front-page.php:24
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/unitheme/front-page.php on line 24
+[29-Jul-2019 20:55:52 UTC] PHP Parse error:  syntax error, unexpected 'Events' (T_STRING) in /app/public/wp-content/themes/unitheme/archive-event.php on line 8
+[29-Jul-2019 21:37:32 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (20/07/2019) at position 0 (2): Unexpected character in /app/public/wp-content/themes/unitheme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-content/themes/unitheme/front-page.php(29): DateTime->__construct('20/07/2019')
+#1 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/unitheme/front-page.php on line 29
+[29-Jul-2019 21:41:02 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (20/07/2019) at position 0 (2): Unexpected character in /app/public/wp-content/themes/unitheme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-content/themes/unitheme/front-page.php(29): DateTime->__construct('20/07/2019')
+#1 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/unitheme/front-page.php on line 29
+[29-Jul-2019 21:41:03 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (20/07/2019) at position 0 (2): Unexpected character in /app/public/wp-content/themes/unitheme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-content/themes/unitheme/front-page.php(29): DateTime->__construct('20/07/2019')
+#1 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/unitheme/front-page.php on line 29
+[30-Jul-2019 21:10:29 UTC] PHP Parse error:  syntax error, unexpected ',' in /app/public/wp-content/themes/unitheme/front-page.php on line 29
+[30-Jul-2019 21:10:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function data() in /app/public/wp-content/themes/unitheme/front-page.php:19
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/unitheme/front-page.php on line 19
+[30-Jul-2019 21:23:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_post_type() in /app/public/wp-content/themes/unitheme/functions.php:17
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_adjust_queries(Object(WP_Query))
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/class-wp-query.php(1753): do_action_ref_array('pre_get_posts', Array)
+#4 /app/public/wp-includes/class-wp-query.php(3404): WP_Query->get_posts()
+#5 /app/public/wp-includes/class-wp.php(622): WP_Query->query(Array)
+#6 /app/public/wp-includes/class-wp.php(739): WP->query_posts()
+#7 /app/public/wp-includes/functions.php(1105): WP->main('')
+#8 /app/public/wp-blog-header.php(16): wp()
+#9 /app/public/index.php(17): require('/app/public/wp-...')
+#10 {main}
+  thrown in /app/public/wp-content/themes/unitheme/functions.php on line 17
