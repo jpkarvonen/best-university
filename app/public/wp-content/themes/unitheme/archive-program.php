@@ -13,16 +13,17 @@ get_header(); ?>
 </div>
 
 <div class="container container--narrow page-section">
-  <?php
+  
+  <ul class="link-list min-list">
+   <?php
     while(have_posts()) {
       the_post(); ?>
-
+      <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
     <?php }
     echo paginate_links();
-  ?>
+   ?>
+ </ul>
 
- <hr class="section-break">
- <p>Looking for a recap of past events? <a href="<?php echo site_url('/past-events') ?>">Check out our past events page!</a></p>
 </div>
 
 <?php get_footer();
