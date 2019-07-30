@@ -174,3 +174,15 @@ Stack trace:
 #9 /app/public/index.php(17): require('/app/public/wp-...')
 #10 {main}
   thrown in /app/public/wp-content/themes/unitheme/functions.php on line 17
+[30-Jul-2019 21:40:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WP_Query() in /app/public/wp-content/themes/unitheme/page-past-events.php:18
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/unitheme/page-past-events.php on line 18
+[30-Jul-2019 21:42:04 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /app/public/wp-content/themes/unitheme/page-past-events.php on line 33
+[30-Jul-2019 21:43:56 UTC] PHP Parse error:  syntax error, unexpected ''post_type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/unitheme/page-past-events.php on line 21
+[30-Jul-2019 22:14:16 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:5) in /app/public/wp-content/mu-plugins/university-post-types.php on line 37
+[30-Jul-2019 22:14:17 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:5) in /app/public/wp-content/mu-plugins/university-post-types.php on line 37
+[30-Jul-2019 22:14:17 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:5) in /app/public/wp-content/mu-plugins/university-post-types.php on line 37
