@@ -307,3 +307,6 @@ Stack trace:
 [05-Aug-2019 14:12:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/unitheme/inc/like-route.php on line 25
 [05-Aug-2019 14:15:43 UTC] PHP Parse error:  syntax error, unexpected 'wp_insert_post' (T_STRING) in /app/public/wp-content/themes/unitheme/inc/like-route.php on line 21
 [07-Aug-2019 17:57:52 UTC] PHP Parse error:  syntax error, unexpected '$relatedPrograms' (T_VARIABLE) in /app/public/wp-content/plugins/my-first-amazing-plugin/my-first-amazing-plugin.php on line 25
+[07-Aug-2019 18:58:42 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /app/public/wp-includes/class-wp-query.php on line 3287
+[07-Aug-2019 18:59:12 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /app/public/wp-content/plugins/my-first-amazing-plugin/my-first-amazing-plugin.php on line 29
+[07-Aug-2019 18:59:16 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /app/public/wp-includes/class-wp-query.php on line 3287
